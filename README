@@ -8,6 +8,9 @@ A.
 	--> _Z7averageif
 	(for "if", i is int, f is float)
 
+	function "main()"
+	--> main
+
 B.
 
 	output:

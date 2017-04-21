@@ -1,0 +1,29 @@
+A.
+	function "double average(double *n1, double &n2)"
+	--> _Z7averagePdRd
+	(for "PdRd", P is pointer, d is double, R is reference)
+	
+	
+	function "int average(int n1, float n2)"
+	--> _Z7averageif
+	(for "if", i is int, f is float)
+
+B.
+
+	output:
+		1 8
+		4 8
+		4 8
+		8 8
+
+	"The sizeof() function will return the bytes of the type"
+
+	since we know that: 
+
+	pointer(regardless of the type) cost 8bytes
+	char cost 1byte
+	int cost 4byte
+	float cost 4byte
+	double cost 8byte
+	
+
